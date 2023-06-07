@@ -1,5 +1,13 @@
 body {
     background-color: #edecec;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -9,8 +17,19 @@ body {
 }
 
 #bar {
+    margin-top: 7px;
     background: #5b97d4;
     color: white;
     padding-left: 5px;
     font-family: sans-serif;
+}
+
+#footer {
+    background: #5b97d4;
+    color: white;
+    padding-left: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: auto;
+    height: 45px;
 }
