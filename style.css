@@ -5,9 +5,14 @@ body {
     flex-direction: column;
 }
 
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 a {
     color: white;
     text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .logo {
@@ -21,15 +26,24 @@ a {
     background: #5b97d4;
     color: white;
     padding-left: 5px;
-    font-family: sans-serif;
 }
 
 #footer {
     background: #5b97d4;
     color: white;
     padding-left: 5px;
-    font-family: sans-serif;
     text-align: center;
     margin-top: auto;
     height: 45px;
+}
+
+#welcome {
+    margin-top: 10px;
+    background: #5b97d4;
+    color: white;
+    
+}
+
+.blog {
+    display: flex;
 }
